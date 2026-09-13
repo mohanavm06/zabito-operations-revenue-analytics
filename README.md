@@ -8,6 +8,16 @@ occupancy, churn/retention, pricing & discount effectiveness, and monthly foreca
 - Where is early-stage churn highest and what indicators correlate with churn?
 - Do discounts improve net revenue and retention, or only reduce ADR?
 - How accurate are monthly forecasts and what explains variance?
+# Project structure
+
+zabito-enquiry-tracker/
+├── README.md
+├── requirements.txt
+├── .gitignore
+├── data/
+│   └── zabito_enquiry_sample.xlsx
+└── src/
+    └── analyse_enquiries.py
 
 ## KPIs
 - Occupancy % (daily/monthly)
@@ -43,4 +53,16 @@ See `data/README.md` for the dictionary and privacy approach.
 - Power BI dashboard specification + screenshots
 
 ## Notes
-This is a portfolio project inspired by real operational analytics work. No confidential data is included.
+This portfolio project is inspired by real operational analytics work. No confidential data is included.
+
+# Possible next improvements
+
+Add monthly trend charts
+
+Calculate lead-to-conversion time
+
+Add occupancy/revenue data
+
+Build a Power BI dashboard from the same Excel source
+
+Move the data into SQL and query it from Python
